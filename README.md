@@ -1,6 +1,6 @@
-# Polymer Google Map Web Component Gem
+# Polymer Google Analytics Web Component Gem
 
-The Web component implements [Google Map interface](http://googlewebcomponents.github.io/google-map/components/google-map/).
+The Web component implements [Google Analytics interface](http://googlewebcomponents.github.io/google-analytics/components/google-analytics/).
 
 
 
@@ -9,7 +9,7 @@ The Web component implements [Google Map interface](http://googlewebcomponents.g
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'polymer-google-map'
+gem 'polymer-google-analytics'
 ```
 
 
@@ -20,19 +20,19 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install polymer-google-map
+    $ gem install polymer-google-analytics
 
 ## Getting started
 
 ```ruby
 gem 'polymer-rails'
-gem 'polymer-google-map'
+gem 'polymer-google-analytics'
 ```
 
 After runnign `bundle install` require needed paper elements into your `application.html` manifest file.
 
     //= require polymer/polymer
-    //= require google-map/google-map
+    //= require google-analytics/google-analytics
 
 
 ## Contributing
